@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '8.2'
   s.requires_arc     = true
   s.source_files     = 'Pod/Classes/**/*'
-  s.dependency         'SwiftLayout'
-  s.dependency         'InkKit'
+  s.dependency         'SwiftLayout', '1.3.1'
+  s.dependency         'InkKit', '1.3.1'
 end
